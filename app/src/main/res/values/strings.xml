@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Poke Tracker Form</string>
+    <string name="app_name">Poke - Tracker</string>
+    <string name="tagline">Register new catch</string>
+    <string name="stats_heading">Base Stats</string>
+    <string name="nameLabel">Name</string>
+    <string name="nationalNumLabel">National Number</string>
+    <string name="speciesLabel">Species</string>
+    <string name="GenderLabel">Gender</string>
+    <string name="levelLabel">Level</string>
+    <string name="HeightLabel">Height</string>
+    <string name="WeightLabel">Weight</string>
+    <string name="HPLabel">HP</string>
+    <string name="attackLabel">Attack</string>
+    <string name="defenseLabel">Defense</string>
+    <string name="resetLabel">Reset</string>
+    <string name="saveLabel">Save</string>
+    <string name="femaleLabel">Female</string>
+    <string name="maleLabel">Male</string>
+    <string name="unknownLabel">Unk.</string>
+
 </resources>
