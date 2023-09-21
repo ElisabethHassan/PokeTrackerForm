@@ -10,227 +10,280 @@
         android:id="@+id/app_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="26dp"
         android:text="@string/app_name"
         android:textSize="25sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="26dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tagLine_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
         android:text="@string/tagline"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="60dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_heading" />
 
     <TextView
         android:id="@+id/stats_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="48dp"
         android:text="@string/stats_heading"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="480dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelLabel_tv" />
 
     <EditText
         android:id="@+id/hp_editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="36dp"
         android:ems="10"
         android:inputType="text"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="498dp" />
+        app:layout_constraintStart_toEndOf="@+id/stats_heading"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_box" />
 
     <EditText
         android:id="@+id/defense_editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="9dp"
         android:ems="10"
         android:inputType="text"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="605dp" />
+        app:layout_constraintStart_toEndOf="@+id/defenseLabel_tv"
+        app:layout_constraintTop_toBottomOf="@+id/attack_editText" />
 
     <TextView
         android:id="@+id/defenseLabel_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="35dp"
         android:text="@string/defenseLabel"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="631dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/attackLabel_tv" />
 
     <EditText
         android:id="@+id/attack_editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="text"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="551dp" />
+        app:layout_constraintStart_toEndOf="@+id/attackLabel_tv"
+        app:layout_constraintTop_toBottomOf="@+id/hp_editText" />
 
     <TextView
         android:id="@+id/attackLabel_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="33dp"
         android:text="@string/attackLabel"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="577dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hpLabel_tv" />
 
     <TextView
         android:id="@+id/hpLabel_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="17dp"
         android:text="@string/HPLabel"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="524dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stats_heading" />
 
     <EditText
         android:id="@+id/national_editview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="9dp"
         android:ems="10"
         android:inputType="text"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="87dp" />
+        app:layout_constraintStart_toEndOf="@+id/nationalLabel_tv"
+        app:layout_constraintTop_toBottomOf="@+id/tagLine_tv" />
 
     <TextView
         android:id="@+id/speciesLabel_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="26dp"
         android:text="@string/speciesLabel"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="210dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameLabel_tv" />
 
     <TextView
         android:id="@+id/weightLabel_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="26dp"
         android:text="@string/WeightLabel"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="359dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heightLabel_tv" />
 
     <TextView
         android:id="@+id/genderLabel_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="39dp"
         android:text="@string/GenderLabel"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="268dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/speciesLabel_tv" />
 
     <RadioButton
         android:id="@+id/unknown_RB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="15dp"
         android:text="@string/unknownLabel"
-        tools:layout_editor_absoluteX="303dp"
-        tools:layout_editor_absoluteY="255dp" />
+        app:layout_constraintStart_toEndOf="@+id/male_RB"
+        app:layout_constraintTop_toBottomOf="@+id/species_editText" />
 
     <EditText
         android:id="@+id/species_editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="text"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="195dp" />
+        app:layout_constraintStart_toEndOf="@+id/speciesLabel_tv"
+        app:layout_constraintTop_toBottomOf="@+id/name_editText" />
 
     <TextView
         android:id="@+id/heightLabel_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="26dp"
         android:text="@string/HeightLabel"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="313dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genderLabel_tv" />
 
     <EditText
         android:id="@+id/weight_editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="11dp"
         android:ems="10"
         android:inputType="text"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="343dp" />
+        app:layout_constraintStart_toEndOf="@+id/weightLabel_tv"
+        app:layout_constraintTop_toBottomOf="@+id/height_editText" />
 
     <TextView
         android:id="@+id/nationalLabel_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="53dp"
         android:text="@string/nationalNumLabel"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="113dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_heading" />
 
     <TextView
         android:id="@+id/levelLabel_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="35dp"
         android:text="@string/levelLabel"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="413dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weightLabel_tv" />
 
     <TextView
         android:id="@+id/nameLabel_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="33dp"
         android:text="@string/nameLabel"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="164dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nationalLabel_tv" />
 
     <RadioButton
         android:id="@+id/male_RB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="@string/maleLabel"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="255dp" />
+        app:layout_constraintStart_toEndOf="@+id/female_RB"
+        app:layout_constraintTop_toBottomOf="@+id/species_editText" />
 
     <RadioButton
         android:id="@+id/female_RB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="15dp"
         android:text="@string/femaleLabel"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="255dp" />
+        app:layout_constraintStart_toEndOf="@+id/genderLabel_tv"
+        app:layout_constraintTop_toBottomOf="@+id/species_editText" />
 
     <EditText
         android:id="@+id/height_editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="text"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="287dp" />
+        app:layout_constraintStart_toEndOf="@+id/heightLabel_tv"
+        app:layout_constraintTop_toBottomOf="@+id/unknown_RB" />
 
     <EditText
         android:id="@+id/name_editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="5dp"
         android:ems="10"
         android:inputType="text"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="138dp" />
+        app:layout_constraintStart_toEndOf="@+id/nameLabel_tv"
+        app:layout_constraintTop_toBottomOf="@+id/national_editview" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="14dp"
         android:text="@string/resetLabel"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="664dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/defense_editText" />
 
     <Button
         android:id="@+id/save_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp"
         android:text="@string/saveLabel"
-        tools:layout_editor_absoluteX="279dp"
-        tools:layout_editor_absoluteY="664dp" />
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/defense_editText" />
 
     <Spinner
         android:id="@+id/spinner_box"
         android:layout_width="163dp"
         android:layout_height="32dp"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="413dp" />
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="25dp"
+        android:entries="@array/values"
+        app:layout_constraintStart_toEndOf="@+id/levelLabel_tv"
+        app:layout_constraintTop_toBottomOf="@+id/weight_editText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

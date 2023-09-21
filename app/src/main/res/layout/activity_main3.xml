@@ -4,8 +4,8 @@
     android:layout_height="match_parent"
     android:stretchColumns="1">
 
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
 
 
 
@@ -14,204 +14,204 @@
 
 
 
-    <TextView
-        android:id="@+id/app_heading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/app_heading"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/app_name"-->
+<!--        android:textSize="25sp"-->
+<!--        android:textStyle="bold"-->
+<!--        />-->
 
-    <TextView
-        android:id="@+id/tagLine_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tagline"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/tagLine_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/tagline"-->
+<!--        />-->
 
-    <TextView
-        android:id="@+id/stats_heading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/stats_heading"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/stats_heading"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/stats_heading"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        />-->
 
-    <EditText
-        android:id="@+id/hp_editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        />
+<!--    <EditText-->
+<!--        android:id="@+id/hp_editText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="text"-->
+<!--        />-->
 
-    <EditText
-        android:id="@+id/defense_editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        />
+<!--    <EditText-->
+<!--        android:id="@+id/defense_editText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="text"-->
+<!--        />-->
 
-    <TextView
-        android:id="@+id/defenseLabel_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/defenseLabel"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/defenseLabel_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/defenseLabel"-->
+<!--        />-->
 
-    <EditText
-        android:id="@+id/attack_editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        />
+<!--    <EditText-->
+<!--        android:id="@+id/attack_editText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="text"-->
+<!--        />-->
 
-    <TextView
-        android:id="@+id/attackLabel_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/attackLabel"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/attackLabel_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/attackLabel"-->
+<!--        />-->
 
-    <TextView
-        android:id="@+id/hpLabel_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/HPLabel"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/hpLabel_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/HPLabel"-->
+<!--        />-->
 
-    <EditText
-        android:id="@+id/national_editview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        />
+<!--    <EditText-->
+<!--        android:id="@+id/national_editview"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="text"-->
+<!--        />-->
 
-    <TextView
-        android:id="@+id/speciesLabel_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/speciesLabel"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/speciesLabel_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/speciesLabel"-->
+<!--        />-->
 
-    <TextView
-        android:id="@+id/weightLabel_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/WeightLabel"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/weightLabel_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/WeightLabel"-->
+<!--        />-->
 
-    <TextView
-        android:id="@+id/genderLabel_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/GenderLabel"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/genderLabel_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/GenderLabel"-->
+<!--        />-->
 
-    <RadioButton
-        android:id="@+id/unknown_RB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/unknownLabel"
-        />
+<!--    <RadioButton-->
+<!--        android:id="@+id/unknown_RB"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/unknownLabel"-->
+<!--        />-->
 
-    <EditText
-        android:id="@+id/species_editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        />
+<!--    <EditText-->
+<!--        android:id="@+id/species_editText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="text"-->
+<!--        />-->
 
-    <TextView
-        android:id="@+id/heightLabel_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/HeightLabel"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/heightLabel_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/HeightLabel"-->
+<!--        />-->
 
-    <EditText
-        android:id="@+id/weight_editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        />
+<!--    <EditText-->
+<!--        android:id="@+id/weight_editText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="text"-->
+<!--        />-->
 
-    <TextView
-        android:id="@+id/nationalLabel_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/nationalNumLabel"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/nationalLabel_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/nationalNumLabel"-->
+<!--        />-->
 
-    <TextView
-        android:id="@+id/levelLabel_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/levelLabel"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/levelLabel_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/levelLabel"-->
+<!--        />-->
 
-    <TextView
-        android:id="@+id/nameLabel_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/nameLabel"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/nameLabel_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/nameLabel"-->
+<!--        />-->
 
-    <RadioButton
-        android:id="@+id/male_RB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/maleLabel"
-        />
+<!--    <RadioButton-->
+<!--        android:id="@+id/male_RB"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/maleLabel"-->
+<!--        />-->
 
-    <RadioButton
-        android:id="@+id/female_RB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/femaleLabel"
-        />
+<!--    <RadioButton-->
+<!--        android:id="@+id/female_RB"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/femaleLabel"-->
+<!--        />-->
 
-    <EditText
-        android:id="@+id/height_editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        />
+<!--    <EditText-->
+<!--        android:id="@+id/height_editText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="text"-->
+<!--        />-->
 
-    <EditText
-        android:id="@+id/name_editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        />
+<!--    <EditText-->
+<!--        android:id="@+id/name_editText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="text"-->
+<!--        />-->
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/resetLabel"
-        />
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/resetLabel"-->
+<!--        />-->
 
-    <Button
-        android:id="@+id/save_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/saveLabel"
-        />
+<!--    <Button-->
+<!--        android:id="@+id/save_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/saveLabel"-->
+<!--        />-->
 
-    <Spinner
-        android:id="@+id/spinner_box"
-        android:layout_width="163dp"
-        android:layout_height="32dp" />
+<!--    <Spinner-->
+<!--        android:id="@+id/spinner_box"-->
+<!--        android:layout_width="163dp"-->
+<!--        android:layout_height="32dp" />-->
 
 
 
