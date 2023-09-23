@@ -17,6 +17,12 @@
     <string name="femaleLabel">Female</string>
     <string name="maleLabel">Male</string>
     <string name="unknownLabel">Unk.</string>
+    <string name="zero">0</string>
+    <string name="weightDefault">800.0</string>
+    <string name="heightDefault">2.2</string>
+    <string name="speciesDefault">Wild Horse Pokémon</string>
+    <string name="nameDefault">Glastrier</string>
+    <string name="nnDefault">896</string>
 
     <string-array name="values">
         <item>1</item>

@@ -48,7 +48,8 @@
         android:ems="10"
         android:inputType="text"
         app:layout_constraintStart_toEndOf="@+id/stats_heading"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_box" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_box"
+        tools:text="@string/zero" />
 
     <EditText
         android:id="@+id/defense_editText"
@@ -58,6 +59,7 @@
         android:layout_marginTop="9dp"
         android:ems="10"
         android:inputType="text"
+        android:text="@string/zero"
         app:layout_constraintStart_toEndOf="@+id/defenseLabel_tv"
         app:layout_constraintTop_toBottomOf="@+id/attack_editText" />
 
@@ -80,7 +82,8 @@
         android:ems="10"
         android:inputType="text"
         app:layout_constraintStart_toEndOf="@+id/attackLabel_tv"
-        app:layout_constraintTop_toBottomOf="@+id/hp_editText" />
+        app:layout_constraintTop_toBottomOf="@+id/hp_editText"
+        tools:text="@string/zero" />
 
     <TextView
         android:id="@+id/attackLabel_tv"
@@ -109,7 +112,8 @@
         android:layout_marginStart="22dp"
         android:layout_marginTop="9dp"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="number"
+        android:text="@string/nnDefault"
         app:layout_constraintStart_toEndOf="@+id/nationalLabel_tv"
         app:layout_constraintTop_toBottomOf="@+id/tagLine_tv" />
 
@@ -143,15 +147,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/speciesLabel_tv" />
 
-    <RadioButton
-        android:id="@+id/unknown_RB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="15dp"
-        android:text="@string/unknownLabel"
-        app:layout_constraintStart_toEndOf="@+id/male_RB"
-        app:layout_constraintTop_toBottomOf="@+id/species_editText" />
 
     <EditText
         android:id="@+id/species_editText"
@@ -161,6 +156,7 @@
         android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="text"
+        android:text="@string/speciesDefault"
         app:layout_constraintStart_toEndOf="@+id/speciesLabel_tv"
         app:layout_constraintTop_toBottomOf="@+id/name_editText" />
 
@@ -182,6 +178,7 @@
         android:layout_marginTop="11dp"
         android:ems="10"
         android:inputType="text"
+        android:text="@string/weightDefault"
         app:layout_constraintStart_toEndOf="@+id/weightLabel_tv"
         app:layout_constraintTop_toBottomOf="@+id/height_editText" />
 
@@ -215,24 +212,43 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nationalLabel_tv" />
 
-    <RadioButton
-        android:id="@+id/male_RB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="@string/maleLabel"
-        app:layout_constraintStart_toEndOf="@+id/female_RB"
-        app:layout_constraintTop_toBottomOf="@+id/species_editText" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="260dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/species_editText">
 
-    <RadioButton
-        android:id="@+id/female_RB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="15dp"
-        android:text="@string/femaleLabel"
-        app:layout_constraintStart_toEndOf="@+id/genderLabel_tv"
-        app:layout_constraintTop_toBottomOf="@+id/species_editText" />
+        <RadioButton
+            android:id="@+id/female_RB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="15dp"
+            android:paddingHorizontal="4dp"
+            android:text="@string/femaleLabel" />
+
+        <RadioButton
+            android:id="@+id/unknown_RB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="-37.5dp"
+            android:paddingHorizontal="4dp"
+            android:text="@string/unknownLabel" />
+
+        <RadioButton
+            android:id="@+id/male_RB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="-37.5dp"
+            android:paddingHorizontal="4dp"
+            android:text="@string/maleLabel" />
+
+    </RadioGroup>
 
     <EditText
         android:id="@+id/height_editText"
@@ -242,8 +258,9 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="text"
+        android:text="@string/heightDefault"
         app:layout_constraintStart_toEndOf="@+id/heightLabel_tv"
-        app:layout_constraintTop_toBottomOf="@+id/unknown_RB" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <EditText
         android:id="@+id/name_editText"
@@ -253,6 +270,7 @@
         android:layout_marginTop="5dp"
         android:ems="10"
         android:inputType="text"
+        android:text="@string/nameDefault"
         app:layout_constraintStart_toEndOf="@+id/nameLabel_tv"
         app:layout_constraintTop_toBottomOf="@+id/national_editview" />
 
